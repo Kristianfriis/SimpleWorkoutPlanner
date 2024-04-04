@@ -8,17 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58d190b1-2cf3-4cac-afaa-f0dab6ca8d7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Layout/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Layout/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/Counter.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/Weather.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/Weather.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/WorkoutPage.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Pages/WorkoutPage.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/SimpleWorkoutPlanner.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/SimpleWorkoutPlanner.Client.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWorkoutPlanner.Client/wwwroot/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="58d190b1-2cf3-4cac-afaa-f0dab6ca8d7a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712210436298</updated>
-      <workItem from="1712210438093" duration="3099000" />
+      <workItem from="1712210438093" duration="3137000" />
     </task>
     <servers />
   </component>
