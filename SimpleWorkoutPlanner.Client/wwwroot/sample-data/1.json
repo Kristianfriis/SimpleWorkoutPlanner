@@ -1,0 +1,85 @@
+{
+  "Progression" : false,
+  "Exercises" : [
+    {
+      "Name" : "To hånds kettlebell sving",
+      "Description" : "1.   Stil dig med let spredte ben (lidt bredere end skulderbredt) og stil en kettlebell ca. ½ meter foran dig.\n\n2.   Læn dig forover ved at bøje ved hoften, grip fat i håndtaget med håndfladerne imod dig.\n\n3.   Træk ned og imod dig selv med skuldrene, samtidigt som du spænder i overkroppen, inden du svinger kettlebellen bagud mellem benene.\n\n4.   Rejs dig med et kraftfuldt ryk ved at skubbe hoften fremad. Bevæg kettlebellen væk fra kroppen med armene, men løft den ikke med skuldrene, her er det hofterne og overkroppen som skal arbejde!\n\n5.   Forsøg at få den svunget op i brysthøjde, inden du lader den falde tilbage mellem benene, samtidigt som du læner dig forover igen.",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_1.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    },
+    {
+      "Name" : "Lunges med kettlebell\n",
+      "Description" : "1.   Stil dig med let spredte ben og hold kettlebellen i skulderhøjde ved at holde i håndtaget med håndfladen vendt ind mod kroppen. Kettlebellen støtter nu mod ydersiden af armen.\n\n2.   Hold balancen ved at holde den modsatte arm ud til siden.\n\n3.   Hold spændingen i overkroppen og tag et skridt fremad og synk ned, indtil det bagerste knæ er lige over gulvet.\n\n4.   Tryk fra med det forreste ben for at komme tilbage til startpositionen. Tyngden skal være på den midterste -til den bagerste del af foden.",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_2.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    },
+    {
+      "Name" : "\nEn arms floorpress med kettlebell",
+      "Description" : "1.   Læg dig på gulvet med en kettlebell i skulderhøjde.\n\n2.   Læn dig over mod kettlebellen og tag et solidt greb i håndtaget. Løft den op i start position ved at trykke armen imod kroppen, samtidigt som du læner dig tilbage. Albuen ligger nu med gulvet og kettlebellen støtter mod underarmen.\n\n3.   Tryk armen opad samtidigt som du roterer let i håndleddet.\n\n4.   Sænk den i en kontrolleret bevægelse tilbage til startpositionen.",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_3.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    },
+    {
+      "Name" : "Goblet squat",
+      "Description" : "1.   Stil dig med ca. en skulders bredde mellem fødderne og hold en kettlebell ind til brystet, enten ved at holde i håndtaget eller ved at holde på selve kettlebellen.\n\n2.   Hold spændingen i overkroppen og bøj i knæene til det niveau som du kan bemestre uden at slække på teknikken. Hoftens højde i forhold til toppen af knæet, plejer at være et godt mål at stræbe efter.\n\n3.   Rejs dig op i en kontrolleret bevægelse.",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_4.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    },
+    {
+      "Name" : "En arms roning med Kettlebell",
+      "Description" : "1.   Hold kettlebellen i en hånd og stil benet i den modsatte side fremad og det andet bagud.\n\n2.   Læn dig forover og stabiliser overkroppen ved at støtte med den fri hånd på benet som er fremme.\n\n3.   Start øvelsen ved at strække armen ud og slap af skulderen for at skabe en så lang bevægelse som muligt.\n\n4.   Spænd i skulderen og begynd at trække kettlebellen op og bagud ind til hånden er ca. i niveau med maven.\n\n5.   Sænk herefter kettlebellen igen i en kontrolleret bevægelse.",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_5.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    },
+    {
+      "Name" : "En arms pres med Kettlebell",
+      "Description" : "1.   Stil dig med ca. en skulder breddes afstand mellem fødderne og hold kettlebellen i skulderhøjde ved at holde i håndtaget, med håndfladen vendt ind mod kroppen. Kettlebellen støtter nu mod ydersiden af armen.\n\n2.   Hold balancen med hjælp af den anden hånd.\n\n3.   Træk skuldrene tilbage og ned og hold skuldrene i den positions igennem hele øvelsen.\n\n4.   Pres hånden opad med en let rotation, så håndfladen peger fremad når armen er helt udstrakt.\n\n5.   Sænk kettlebellen igen i en kontrolleret bevægelse.\n\n",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_6.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    },
+    {
+      "Name" : "Biceps Curl med Kettlebell",
+      "Description" : "1.   Stil dig med ca. en skulder breddes afstand mellem fødderne og hold kettlebellen i den ene hånd.\n\n2.   Løft kettlebellen op mod skulderen ved at bøje i albuen den at bevæge overarmen.\n\n3.   Sænk kettlebellen tilbage til udgangspunktet i en kontrolleret bevægelse.",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_7.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    },
+    {
+      "Name" : "En arms skull crusher med Kettlebell",
+      "Description" : "1.   Læg dig på gulvet med en kettlebell i den ene hånd, enten ved at tage fat i håndtaget eller direkte på kettlebellen, hvis størrelsen tillader det. \n\n2.   start ved at først strække armen op i luften og en lille smule bagud, så tyngdepunktet er lidt bagved armen.\n\n3.   Bøj albuen og sænk kettlebellen næsten ned til gulvet i en kontrolleret bevægelse.\n\n4.   Pres kettlebellen op til startposition igen ved at strække armen ud.",
+      "PictureUrl" : "/sample-data/pictures/Kettlebells_8.jpg",
+      "MinReps" : 10,
+      "MaxReps" : 15,
+      "Sets" : 4,
+      "Time" : "00:00:00",
+      "Pause" : "00:01:00"
+    }
+  ]
+}

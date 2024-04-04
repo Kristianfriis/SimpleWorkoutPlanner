@@ -1,0 +1,33 @@
+@page "/workout/{Id:long}"
+
+@inject HttpClient Http
+
+@if (_workout == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <h3>Workout</h3>
+    if (_workout.Exercises is not null)
+    {
+        @foreach(var exercise in _workout.Exercises)
+        {
+            <h4>@exercise.Name</h4>
+            <p>@exercise.Description</p>
+            <img alt="exercise picture" src="@exercise.PictureUrl"/>
+        }
+    }
+}
+
+@code {
+    [Parameter]
+    public long Id { get; set; }
+    
+    private Workout? _workout;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        _workout = await Http.GetFromJsonAsync<Workout>($"sample-data/{Id}.json");
+    }
+}

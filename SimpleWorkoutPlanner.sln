@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWorkoutPlanner.Client", "SimpleWorkoutPlanner.Client\SimpleWorkoutPlanner.Client.csproj", "{F5334418-C311-42D4-A3F9-2BA2A798DF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWorkoutPlanner.Shared", "SimpleWorkoutPlanner.Shared\SimpleWorkoutPlanner.Shared.csproj", "{2ABBFD2F-4F2C-4E4B-8018-24663B43C60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleWorkoutPlanner.Client.Test", "SimpleWorkoutPlanner.Client.Test\SimpleWorkoutPlanner.Client.Test.csproj", "{6FBE3A29-A7FB-40B3-8FE5-72AE8C2356EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5334418-C311-42D4-A3F9-2BA2A798DF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5334418-C311-42D4-A3F9-2BA2A798DF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5334418-C311-42D4-A3F9-2BA2A798DF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5334418-C311-42D4-A3F9-2BA2A798DF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABBFD2F-4F2C-4E4B-8018-24663B43C60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABBFD2F-4F2C-4E4B-8018-24663B43C60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABBFD2F-4F2C-4E4B-8018-24663B43C60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABBFD2F-4F2C-4E4B-8018-24663B43C60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBE3A29-A7FB-40B3-8FE5-72AE8C2356EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBE3A29-A7FB-40B3-8FE5-72AE8C2356EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBE3A29-A7FB-40B3-8FE5-72AE8C2356EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBE3A29-A7FB-40B3-8FE5-72AE8C2356EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

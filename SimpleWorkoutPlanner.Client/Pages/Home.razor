@@ -1,0 +1,40 @@
+﻿@page "/"
+
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<PageTitle>Home</PageTitle>
+
+@if (_workouts == null)
+{
+    
+}
+else
+{
+    foreach (var workout in _workouts)
+    {
+        <div>@workout.Title</div>
+        <div>@workout.Description</div>
+        <button @onclick="() => Navigate(workout.Id)">Go To</button>
+    }
+}
+
+@code{
+    private WorkoutListItem[]? _workouts;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await GetWorkoutList();
+    }
+
+    async Task GetWorkoutList()
+    {
+        _workouts = await Http.GetFromJsonAsync<WorkoutListItem[]>("sample-data/WorkoutList.json");
+    }
+
+    private void Navigate(long workoutId)
+    {
+        NavigationManager.NavigateTo($"/workout/{workoutId}");
+    }
+
+}
