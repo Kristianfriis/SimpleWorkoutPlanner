@@ -4,20 +4,30 @@
 @inject NavigationManager NavigationManager
 
 <PageTitle>Home</PageTitle>
-
-@if (_workouts == null)
-{
-    
-}
-else
-{
-    foreach (var workout in _workouts)
+<BHeader Title="Workouts"></BHeader>
+<BContent Padding="true">
+    @if (_workouts == null)
     {
-        <div>@workout.Title</div>
-        <div>@workout.Description</div>
-        <button @onclick="() => Navigate(workout.Id)">Go To</button>
+        <BCenterSpinner />
     }
-}
+    else
+    {
+        foreach (var workout in _workouts)
+        {
+              <BItem OnClick="() => Navigate(workout.Id)">
+                    <BLabel>
+                        <Header>
+                            @workout.Title
+                        </Header>
+                        <Content>
+                            @workout.Description
+                        </Content>
+                    </BLabel>
+                    <BIcon Icon="bi bi-arrow-right-circle-fill" />
+                </BItem>
+        }
+    }
+</BContent>
 
 @code{
     private WorkoutListItem[]? _workouts;
@@ -36,5 +46,4 @@ else
     {
         NavigationManager.NavigateTo($"/workout/{workoutId}");
     }
-
 }

@@ -1,16 +1,16 @@
 ﻿@inherits LayoutComponentBase
-<div class="page">
-    <div class="sidebar">
-        <NavMenu/>
-    </div>
-
-    <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
+<BApp>
+    <BOffCanvas Title="Workout">
+        <ChildContent>
+            <BOffCanvasItem Href="/" Name="Home" Icon="bi bi-house" />
+            <BOffCanvasItem Href="/weather" Name="Fetch Data" Icon="bi bi-list-ul" />
+            <BOffCanvasItem Href="/counter" Name="Counter" Icon="bi bi-plus-lg" />
+        </ChildContent>
+    
+        <Bottom>
+            <span>Version in bottom 1.4.1</span>
+        </Bottom>
+    </BOffCanvas>
+    
+    @Body
+</BApp>

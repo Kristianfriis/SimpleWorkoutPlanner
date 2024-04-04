@@ -1,24 +1,27 @@
 @page "/workout/{Id:long}"
 
 @inject HttpClient Http
-
-@if (_workout == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <h3>Workout</h3>
-    if (_workout.Exercises is not null)
+<PageTitle>Workout</PageTitle>
+<BHeader Title="Workout" BackButton="true"></BHeader>
+<BContent Padding="true">
+    @if (_workout == null)
     {
-        @foreach(var exercise in _workout.Exercises)
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <h3>Workout</h3>
+        if (_workout.Exercises is not null)
         {
-            <h4>@exercise.Name</h4>
-            <p>@exercise.Description</p>
-            <img alt="exercise picture" src="@exercise.PictureUrl"/>
+            @foreach(var exercise in _workout.Exercises)
+            {
+                <h4>@exercise.Name</h4>
+                <p>@exercise.Description</p>
+                <img alt="exercise picture" src="@exercise.PictureUrl"/>
+            }
         }
     }
-}
+</BContent>
 
 @code {
     [Parameter]
