@@ -1,24 +1,23 @@
 @page "/workout/{Id:long}"
 
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
+
 <PageTitle>Workout</PageTitle>
 <BHeader Title="Workout" BackButton="true"></BHeader>
 <BContent Padding="true">
-    @if (_workout == null)
+    @if (_workout is null)
     {
         <p><em>Loading...</em></p>
     }
     else
     {
         <h3>Workout</h3>
-        if (_workout.Exercises is not null)
-        {
-            @foreach(var exercise in _workout.Exercises)
-            {
-                <h4>@exercise.Name</h4>
-                <p>@exercise.Description</p>
-                <img alt="exercise picture" src="@exercise.PictureUrl"/>
-            }
+        if(_currentExercise is not null) {
+            <h4>@_currentExercise.Name</h4>
+            <p>@_currentExercise.Description</p>
+            <img alt="exercise picture" src="@(_currentExercise.PictureUrl)"/>
+            <button @onclick="NextExercise">Next Exercise</button>
         }
     }
 </BContent>
@@ -28,9 +27,25 @@
     public long Id { get; set; }
     
     private Workout? _workout;
-    
+    private Exercise? _currentExercise;
+    private int _numberOfExersizes = 0;
+    private int _excersizeIteration = 0;
+
     protected override async Task OnInitializedAsync()
     {
         _workout = await Http.GetFromJsonAsync<Workout>($"sample-data/{Id}.json");
+        if(_workout is not null) {
+            _numberOfExersizes = _workout.Exercises.Count - 1;
+            _currentExercise = _workout.Exercises[_excersizeIteration];   
+        }
+    }
+
+    private void NextExercise() {
+        if(_excersizeIteration == _numberOfExersizes){
+            NavigationManager.NavigateTo("/");
+        } else {
+            _excersizeIteration++;
+            _currentExercise = _workout.Exercises[_excersizeIteration];
+        }
     }
 }
